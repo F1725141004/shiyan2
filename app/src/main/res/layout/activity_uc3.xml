@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UC3Activity">
+
+    <ImageView
+        android:id="@+id/uc3_iv1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/i01"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/uc3_iv2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/i02"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/uc3_iv3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/i03"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/uc3_iv4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/i04"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/uc3_iv5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/i05"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/uc3_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:onClick="return1"
+            android:text="返回" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
+

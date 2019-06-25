@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_uc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uc2"
+        android:textSize="20sp"
+        android:padding="20dp"/>
+    <Button
+    android:id="@+id/btn_uc1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/uc1"
+    android:textSize="20sp"
+    android:padding="20dp"/>
+    <Button
+        android:id="@+id/btn_uc3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uc3"
+        android:textSize="20sp"
+        android:padding="20dp"/>
+    <Button
+    android:id="@+id/btn_uc5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/uc5"
+    android:textSize="20sp"
+    android:padding="20dp"/>
+    <Button
+        android:id="@+id/btn_uc4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uc4"
+        android:textSize="20sp"
+        android:padding="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:text="@string/my_name"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+</LinearLayout>
